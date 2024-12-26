@@ -1,0 +1,28 @@
+
+  .table-container {
+    overflow-x: auto;
+  }
+/*   
+  .table {
+    width: 100%;
+  } */
+  @media (max-width: 1204px) {
+    .btn-large-screen {
+      display: none;
+    }
+  
+    .btn-small-screen {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1205px) {
+    .btn-large-screen {
+      display: flex;
+    }
+  
+    .btn-small-screen {
+      display: none;
+    }
+  }
+  
